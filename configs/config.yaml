@@ -1,0 +1,10 @@
+federation:
+  rounds: 50
+  clients_per_round: 10
+  strategy: fedavg
+data:
+  partitioning: dirichlet
+  alpha: 0.5
+privacy:
+  dp_sgd: true
+  epsilon_budget: 5.0
